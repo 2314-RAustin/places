@@ -5,23 +5,30 @@ import Title from './Components/Title.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Title title="Titulo"></Title>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section>
+      <div>
+        <div>
+          <Title></Title>
+          <button>Crear una cuenta gratuita</button>
+          <div>
+            <ul>
+              <li>
+                <h3>Califica con emociones</h3>
+                <p>Califica tus lugares con experiencias, no con números</p>
+              </li>
+              <li>
+                <h3>Sin internet ? sin problemas</h3>
+                <p>Places funciona sin internet o en conexiones lentas</p>
+              </li>
+              <li>
+                <h3>Tus lugares favoritos</h3>
+                <p>Define tu lista de sitios favoritos</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 

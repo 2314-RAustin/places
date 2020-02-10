@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Title from './Components/Title.js';
+import logoPlaces from './images/logo-places.png'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <div>
           <Title></Title>
           <button>Crear una cuenta gratuita</button>
+          <img src={logoPlaces} alt="logo-places" height="300"/>
           <div>
             <ul>
               <li>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Tittle extends React.Component {
+export default class Title extends React.Component {
     render(){
         return(
             <div>
